@@ -1,0 +1,118 @@
+/* Style css
+/* --------------general page style----------------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* --------------header style---------------------- */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* ---------------navigation style---------------------- */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #bbab43;
+}
+
+/* ---------------section style --------- */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* ------------------home section --------- */
+.hero {
+  text-align: center;
+  background-color: white;
+  padding: 60px 20px;
+}
+
+/* ---------------------main button --------- */
+.button {
+  display: inline-block;
+  background-color: #bbab43;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #bbab43;
+}
+
+/* -------------------projects container --------- */
+.projects-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* -----------------project cards --------- */
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #bbab43;
+}
+
+/* --------------------contact section --------- */
+#contact {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* ---------------------footer --------- */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* -------------------responsive design for smaller screens --------- */
+@media screen and (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .hero {
+    padding: 40px 15px;
+  }
+}
